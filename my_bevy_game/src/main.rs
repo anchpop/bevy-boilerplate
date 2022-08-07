@@ -1,3 +1,4 @@
+#![deny(clippy::all)] // Make clippy deny all the enabled-by-default lints
 //! A simplified implementation of the classic game "Breakout".
 
 use bevy::{
